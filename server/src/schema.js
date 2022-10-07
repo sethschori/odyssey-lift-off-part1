@@ -10,7 +10,7 @@ type Query {
 type Track {
     id: ID!
     "the track's title"
-    title: string!
+    title: String!
     "the track's main author"
     author: Author!
     "the track's main illustration to disaply in track card or track page detail"
@@ -25,9 +25,9 @@ type Track {
 type Author {
     id: ID!
     "Author's first and last name"
-    name: string!
+    name: String!
     "Author's profile picture url"
-    photo: string
+    photo: String
 }
 `;
 
