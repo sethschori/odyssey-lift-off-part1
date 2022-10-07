@@ -5,7 +5,7 @@ const mocks = {
     Query: () => ({
         tracksForHome: () => [...new Array(6)]
     }),
-    track: () => ({
+    Track: () => ({
       id: () => 'track_01',
       title: () => 'Astro Kitty, Space Explorer',
       author: () => {
